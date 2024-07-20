@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="Mystyles2.css">
+        <h1><center>Your in the Ticket Booking Page</center></h1>
+        <style>  
+       
+        ul{
+              text-shadow: 5px 5px 10px yellow;
+            }
+            h4{
+              text-shadow: 5px 5px 10px red,10px 10px 20px rgb(44, 197, 31);
+            }div{
+            border: 5px solid rgb(73, 12, 143);
+            background-color: lightseagreen;
+            padding-top: 1px;
+            padding-right: 0px;
+            padding-bottom: 2.5px;
+            padding-left: 2px;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <nav>
+            <ul><center>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Ticket Booking</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul></center>
+        </nav><h4><center>Fill the Booking Form</center></h4>
+        <div><center>
+            <form action="booking.html">
+            Name:
+            <input type="text" name="Name" Size="25px" placeholder="Enter Your name" autofocus><br>
+            boarding point:
+            <input list="branches" name="branches">
+            <datalist id="branches">
+             <option value="GUNTUR"></option>
+             <option value="CHILAKALURIPETA"></option>
+             <option value="ONGOLE"></option>
+             <option value="KAVALI"></option>
+             <option value="NELLORE"></option>
+             <option value="NAYUDUPETA"></option>
+             <option value="THIRUPATHI"></option>
+             <option value="YAGANTI"></option>
+             </datalist required><br>
+
+            destination point:
+            <input list="branches" name="branches">
+            <datalist id="branches">
+            <option value="THIRUPATHI"></option>
+            <option value="SRISAILAM"></option>
+            <option value="YAGANTI"></option>
+            </datalist required><br>
+        
+
+            phone number:
+            <input type="text" name="phone" Size="25" placeholder="Enter Your phone number"required><br>
+            Date of Journey:
+            <input type="date" name="Bname"required/><br>
+           <label for="Timeings">Select bus timeing:</label>
+            <select id="Timeings">
+            <option value="9.40pm">9.40pm</option>
+            <option value="10.35pm">10.35pm</option>
+            <option value="12.00am">12.00am</option>
+            <option value="8.40pm">8.40pm</option>
+            <option value="12.35pm">12.35pm</option>
+            <option value="1.00am">1.00am</option>
+            <option value="2.40pm">2.40am</option>
+            <option value="3.35pm">3.35pm</option>
+            <option value="6.00am">6.00am</option>
+         
+            </select><br>
+           <input type="Submit"></div>
+        </form></center>
+        
+       
+        <footer>
+            <p><marquee>&copy;2024 GHANA Web Project.All rights reserved@GHANA</marquee></p>
+        </footer>
+    </body>
+</html>

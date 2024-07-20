@@ -1,0 +1,49 @@
+h1{
+    background-color: rgb(102, 241, 144);
+    color: red;
+}
+h4{
+    background-color:pink;
+  
+    padding: 0px;
+}h3{
+    
+    color: rgb(23, 197, 7);
+    padding: 15px;}
+body{
+    background-color: white;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    color:rgb(46, 17, 212);}
+nav ul li a{
+        color: red;
+        text-decoration: none;
+        
+    }
+    nav ul li a:hover{
+        text-decoration: underline;
+        color: aqua;
+    
+    }
+form{
+    
+    font-size: large;
+    padding: px;
+    margin: 05;
+    
+}
+img{
+    border-radius: 50%;
+}
+
+footer{
+    background-color: lightsalmon;
+    color: red;
+    text-align:center;
+    margin-top: 5;
+    padding: 2px ;
+}
+
